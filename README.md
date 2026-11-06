@@ -29,7 +29,7 @@ Edit `app.py` in the GitHub repository and commit the changes. Streamlit Communi
 - The supplied source ends after printing the programme pillars. This version therefore implements only the registration flow present in that source.
 - The source does not define a database, admin dashboard, email/SMS delivery, or permanent registration storage. The current version keeps answers in the active Streamlit session and displays a review screen; it does not permanently save or submit registrations.
 - The original `input()`/`print()` interface is represented as one typed web prompt per step. The order, accepted values, and validation intent are retained, but terminal loops are adapted to Streamlit session state.
-- Two source issues were handled: the Yes/No tuple typo was corrected, and non-numeric input for the integer method choice now produces a validation message instead of crashing.
+  
 - The supplied code's motto spelling was polished from "Nuturing" to "Nurturing" in the interface. The programme identity and pillars are retained.
 
 ## Security and privacy before public launch
